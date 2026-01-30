@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Kenta's Antics</title>
+<link rel="canonical" href="https://kentajsuzuki.github.io/seminar.html" />
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+    
+
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="mentoring.html">Mentoring</a></li>
+            <li><a href="seminars.html">Seminars</a></li>
+            <li><a href="writing.html">Other Writing</a></li>
+          </ul>
+        </nav>
+      </header>
+
+<style>
+    header {
+    background-color: #79006b; /* Darker teal for header */
+    color: white;
+    padding: 10px 0;
+}
+    ol li {
+        padding: 5px 0px;
+        }
+    
+    ul li {
+            padding: 4px 0px;
+        }
+    
+        nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right; /* Aligns navigation to the right */
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 15px; /* Space between the tabs */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #985090; /* Darker teal on hover */
+    border-radius: 4px;
+}
+    
+    .supsub {
+            display: inline-block;
+        }
+    
+    .supsub sup,
+    .supsub sub {
+            position: relative;
+            display: block;
+            line-height: .6;
+        }
+    
+    .supsub sub {
+            top: .3em;
+        }
+    .hidden { display: none; }
+    .abstract { width: 100%; font-size: smaller; font-style: normal; margin: 0px; padding: 0px; 
+        padding-top:5px;
+         cursor: pointer; }
+    </style>
+     <script>
+        function tog(id) { e = document.getElementById(id); e.classList.toggle('hidden'); }
+        function togs(c) { var es = document.getElementsByClassName(c), len = es ? es.length : 0, i = 0; for ( i ; i < len ; i++ ) { es[i].classList.toggle('hidden'); } }
+    </script>
+<main>
+<font size="+1">
+<H1><font size="+3"> Seminar on Bezrukavnikov's equivalence </font></a></H1>
+
+
+<strong>Abstract:</strong> 
+The goal is to understand a theorem of Bezrukavnikov giving geometric realizations of affine Hecke algebras. You can find a program for the seminar <a href="bezrukavnikov-seminar-program.pdf">here</a>. <br>
+<strong>Organizers:</strong> Bhargav Bhatt, Jacob Lurie, Kenta Suzuki, Mingjia Zhang <br>
+<strong>When?</strong> Fridays 2-4PM <br>
+<strong>Where?</strong> Simonyi Hall 101<br>
+
+
+<h3><font size="+2">Schedule</font></h3>
+<ul>
+    <li> January 30 (Kenta). Organizational meeting (Introduction to Bezrukavnikov's equivalence) <a href="seminar-notes/kenta-talk.pdf">Notes</a></li>
+    <li> February 6 (Yuta). Representation-theoretic background</li>
+    <li> February 13 (Michael/Feliks). Geometry of affine Grassmannian and flag varieties</li>
+    <li> Febuary 20 (Longke). Geometric Satake I: The Satake category</li>
+    <li> Febuary 27 (Elias). Geometric Satake II: The commutativity constraint</li>
+    <li> March 6 (Jacob). Geometric Satake III: Constant term functors</li>
+    <li> March 13 (Xingzhu). Geometric Satake IV: Identification of the dual group</li>
+    <li> March 20 (Quanlin). Geometric Satake V: Derived Satake</li>
+    <li> March 27 (Mingjia). Springer and Steinberg varieties</li>
+    <li> April 3 (Naomi). Iwahori Hecke algebra and their representations</li>
+    <li> April 10 (Bhargav). Gaitsgory's central functor I: Construction</li>
+    <li> April 17 (Longke). Gaitsgory's central functor II: Centrality</li>
+    <li> April 24 (Xingzhu). Wakimoto sheaves and Wakimoto filtration</li>
+    <li> May 1 (Michael). Arkhipov-Bezrukavnikov Equivalence I: Construction</li>
+    <li> May 4 (Guido). Arkhipov-Bezrukavnikov Equivalence II: Whittaker-averaging</li>
+    <li> May 8 (Kenta). Arkhipov-Bezrukavnikov Equivalence III: Proof</li>
+</ul>
+
+<h3><font size="+2">References</font></h3>
+Temperley-Lieb algebra and Quantum Groups
+<ul>
+    <li>
+        V. Jones, <i>Hecke Algebra Representations of Braid Groups and Link Polynomials</i>, <a href="https://www.jstor.org/stable/1971403?seq=1">link</a>
+    </li>
+     <li>
+        I. Losev's notes, Lectures 12-14, <a href="https://gauss.math.yale.edu/~il282/RTMI.html">link</a>
+    </li>
+    <li>
+        C. Kassel, <i>Quantum Groups</i>, <a href="https://link.springer.com/book/10.1007/978-1-4612-0783-2">link</a>
+    </li>
+    <li>
+        P. Tingley, <i>A minus sign that used to annoy me but now I know why it is there</i>, <a href="https://arxiv.org/abs/1002.0555">link</a>
+    </li>
+</ul>
+Categorifications of the Temperley-Lieb algebra
+<ul>
+    <li>
+        D. Bar-Natan, <i>On Khovanov's categorification of the Jones polynomial</i>, <a href="https://arxiv.org/abs/math/0201043">link</a>
+    </li>
+    <li>
+        D. Bar-Natan, <i>Khovanov's homology for tangles and cobordisms</i>, <a href="https://arxiv.org/abs/math/0410495">link</a>
+    </li>
+    <li>
+        S. Morrison, A. Nieh, <i>On Khovanov's cobordism theory for su(3) knot homology</i>, <a href="https://arxiv.org/abs/math/0612754">link</a>
+    </li>
+    <li>
+        P. Tingley, <i>Two constructions of the Jones polynomial</i>, Sections 1-3, <a href="https://webpages.math.luc.edu/~ptingley/lecturenotes/Kauffman_vs_sl2.pdf">link</a>
+    </li>
+</ul>
+
+</main>
+</body>
+</html>
