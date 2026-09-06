@@ -1,125 +1,55 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<title>Kenta's Antics</title>
-<link rel="canonical" href="https://kentajsuzuki.github.io/" />
-<link rel="stylesheet" type="text/css" href="style.css"/>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home — Kenta Suzuki</title>
+<link rel="canonical" href="https://kentajsuzuki.github.io/">
+<link rel="stylesheet" href="style.css">
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-    
-    <header>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="research.html">Research</a></li>
-            <li><a href="mentoring.html">Mentoring</a></li>
-            <li><a href="seminars.html">Seminars</a></li>
-            <li><a href="writing.html">Other Writing</a></li>
-          </ul>
-        </nav>
-      </header>
-
-<style>
-    header {
-    background-color: #79006b; /* Darker teal for header */
-    color: white;
-    padding: 10px 0;
-}
-    ol li {
-        padding: 5px 0px;
-        }
-    
-    ul li {
-            padding: 4px 0px;
-        }
-    
-        nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: right; /* Aligns navigation to the right */
-}
-
-nav ul li {
-    display: inline;
-    margin-left: 15px; /* Space between the tabs */
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 8px 15px;
-    transition: background-color 0.3s;
-}
-
-nav ul li a:hover {
-    background-color: #985090; /* Darker teal on hover */
-    border-radius: 4px;
-}
-    
-    .supsub {
-            display: inline-block;
-        }
-    
-    .supsub sup,
-    .supsub sub {
-            position: relative;
-            display: block;
-            line-height: .6;
-        }
-    
-    .supsub sub {
-            top: .3em;
-        }
-    .hidden { display: none; }
-    .abstract { width: 100%; font-size: smaller; font-style: normal; margin: 0px; padding: 0px; 
-        padding-top:5px;
-         cursor: pointer; }
-         
-         
-    </style>
-     <script>
-        function tog(id) { e = document.getElementById(id); e.classList.toggle('hidden'); }
-        function togs(c) { var es = document.getElementsByClassName(c), len = es ? es.length : 0, i = 0; for ( i ; i < len ; i++ ) { es[i].classList.toggle('hidden'); } }
-    </script>
-<main>
-
-<font size="+1">
-<H1><font size="+4"> Kenta's Antics </font></a></H1>
-<br>
-            <div class="effect">
-            <img class="image" style="border:5px solid white" src="photos/picture-of-me.png" height="280" align="right">
-            <img class="hover" style="border:5px solid white" src="photos/kentagon.jpg" height="280" align="right">
-            </div>
-
-
-Hi! My name is Kenta Suzuki, and I am a second-year graduate student studying mathematics at <a href="https://www.math.princeton.edu/">Princeton</a>.
-Previously, I was an undergraduate at MIT.<br><br>
-
-I am particularly interested in algebraic geometry and applications to representation theory.
-In my free time, I enjoy running and drinking tea. <br><br>
-
-
-	Email: kjsuzuki [at] princeton [dot] edu</br>
-<br>
-This semester, I am co-organizing a <a href="singular-support.html">learning seminar</a> with Joakim Færgeman on the singular support of \(\ell\)-adic sheaves.
-</br><br>
-<div style="clear: both; height: 40px;"></div>
-<!-- This semester, with Bhargav Bhatt, Jacob Lurie, and Mingjia Zhang, I am co-organizing a <a href="bezrukavnikov-equivalence-seminar.html">seminar</a> on Bezrukavnikov's equivalence.<br>
-<br> -->
-
-
-<!-- <h3><font size="+2">Travel Plans</font></h3>
-<ul>
-    <li> February 27 Columbia <a href="https://columbiaafas.github.io/">Automorphic Forms Seminar</a></li>
-    <li> March 2 Yale <a href="https://sites.google.com/view/gspyale/home">Geometry, Symmetry, and Physics Seminar</a>
-    <li> March 26-27 <a href="https://www.simonsfoundation.org/event/simons-collaboration-on-new-structures-in-low-dimensional-topology-annual-meeting-2026/">Simons Collaboration on Low-Dimensional Topology</a>
-    <li> April 6-10 SLMath <a href="https://www.slmath.org/workshops/1153">Hot Topics: Geometric Langlands Conjecture</a></li>
-</ul> -->
-
-</font>
-
-</main>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+<a class="wordmark" href="index.html">Kenta’s Antics<span>Kenta Suzuki · Mathematics</span></a>
+<nav aria-label="Main navigation"><ul><li><a href="index.html" aria-current="page">Home</a></li>
+<li><a href="research.html">Research</a></li>
+<li><a href="mentoring.html">Mentoring</a></li>
+<li><a href="seminars.html">Seminars</a></li>
+<li><a href="writing.html">Other Writing</a></li></ul></nav>
+</header>
+<main id="main"><section class="intro" aria-labelledby="intro-title">
+<div class="intro-copy">
+<p class="eyebrow">Mathematics · Princeton University</p>
+<h1 id="intro-title">Kenta Suzuki</h1>
+<p class="intro-lead">Hi! I’m a second-year graduate student studying mathematics at <a href="https://www.math.princeton.edu/">Princeton</a>. Previously, I was an undergraduate at MIT.</p>
+<p>I am particularly interested in algebraic geometry and applications to representation theory.</p>
+<p>In my free time, I enjoy running and drinking tea.</p>
+<div class="contact"><a href="mailto:kjsuzuki@princeton.edu">kjsuzuki@princeton.edu</a><a href="CV.pdf">CV (PDF) ↗</a></div>
+</div>
+<div class="portrait-wrap">
+<button class="portrait" type="button" aria-label="Show Kentagon portrait" aria-pressed="false">
+<img class="portrait-main" src="photos/picture-of-me.png" alt="Kenta Suzuki" width="260" height="300">
+<img class="portrait-alt" src="photos/kentagon.jpg" alt="" width="260" height="300">
+</button>
+<p class="portrait-caption">A different angle? Tap the photo.</p>
+</div>
+</section>
+<section class="currently" aria-labelledby="currently-title">
+<h2 id="currently-title">Currently</h2>
+<div class="current-grid">
+<article><p class="eyebrow">Learning seminar · Fall 2026</p><h3><a href="singular-support.html">Singular support of \(\ell\)-adic sheaves</a></h3><p>Co-organized with Joakim Færgeman.</p><a class="text-link" href="singular-support.html">Schedule &amp; references →</a></article>
+<article><p class="eyebrow">Latest preprint · August 2026</p><h3><a href="https://arxiv.org/abs/2608.25357">The image of the constant sheaf under the geometric Langlands equivalence</a></h3><a class="text-link" href="research.html#const">Read the summary →</a></article>
+</div>
+</section>
+<script>
+const portrait = document.querySelector('.portrait');
+portrait.addEventListener('click', () => {
+  const show = portrait.getAttribute('aria-pressed') !== 'true';
+  portrait.setAttribute('aria-pressed', String(show));
+  portrait.setAttribute('aria-label', show ? 'Show original portrait' : 'Show Kentagon portrait');
+});
+</script></main>
+<footer>Kenta Suzuki <span>·</span> <a href="mailto:kjsuzuki@princeton.edu">Email</a> <span>·</span> <a href="CV.pdf">CV (PDF)</a></footer>
 </body>
 </html>
