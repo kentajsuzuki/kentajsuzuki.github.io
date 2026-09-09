@@ -24,6 +24,7 @@ main > ul, main > ol { max-width: 850px; }
 li { padding-left: .2rem; margin-bottom: .85rem; }
 li::marker { color: var(--muted); }
 li ul { margin-top: .7rem; }
+.li-note { display: block; color: var(--muted); font-size: .9375rem; line-height: 1.5; margin-top: .3rem; padding-left: .7rem; border-left: 2px solid var(--line); }
 .intro { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 4rem; align-items: start; }
 .eyebrow { font-size: .875rem; font-weight: 600; color: var(--muted); letter-spacing: .045em; margin-bottom: 1rem; }
 .intro h1 { margin-bottom: 1.4rem; }
