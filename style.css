@@ -59,6 +59,20 @@ img { max-width: 100%; height: auto; }
 .supsub { display: inline-block; }
 .supsub sup, .supsub sub { position: relative; display: block; line-height: .6; }
 .supsub sub { top: .3em; }
+.song-index { padding-left: 1.6rem; }
+.song-index li { margin-bottom: .4rem; }
+.song-meta { color: var(--muted); font-size: .9375rem; margin-left: .5rem; }
+.song { max-width: 850px; margin-top: 3.5rem; padding-top: 1.7rem; border-top: 1px solid var(--line); }
+.song > h2 { margin-top: 0; }
+.song .eyebrow { margin-bottom: .6rem; }
+.song-en { display: block; font-size: 1.15rem; color: var(--muted); margin-top: .4rem; }
+.translator-note { font-size: 1rem; color: var(--muted); padding-left: 1rem; border-left: 2px solid var(--line); margin-bottom: 2rem; }
+.version { margin: 1.5rem 0; }
+.version h3 { font-size: 1.1rem; color: var(--muted); }
+.lyrics { font-family: Georgia, "Times New Roman", serif; font-size: 1.1rem; line-height: 1.75; }
+.lyrics p { white-space: pre-line; margin-bottom: 1.6rem; }
+details.version .lyrics { margin-top: 1rem; }
+.back-link { font-size: .875rem; }
 .date { color: var(--plum); display: inline; }
 footer { border-top: 1px solid var(--line); padding-block: 1.4rem 2rem; font-size: .875rem; color: var(--muted); }
 footer span { margin-inline: .6rem; }
